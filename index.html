@@ -79,6 +79,7 @@
                 const iframe = document.createElement('iframe');
                 iframe.src = 'https://helixjump.io'; 
                 iframe.allow = 'fullscreen';
+                iframe.sandboxed = true;
                 document.body.appendChild(iframe); 
                 document.querySelector('div').style.display = 'none'; 
             } else {
